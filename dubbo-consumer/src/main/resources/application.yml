@@ -1,0 +1,14 @@
+dubbo:
+  application:
+    name: dubbo-consumer
+  registry:
+    address: nacos://106.12.84.126:8848
+
+#    demo.service.version=1.0.0
+     #demo.service.name = demoService
+demo:
+  service:
+    version: 1.0.0
+    name: demoService
+server:
+  port: 8001
